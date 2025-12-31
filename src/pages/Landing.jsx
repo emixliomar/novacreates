@@ -314,10 +314,6 @@ export default function YcstLandingDark() {
                     Visual preview
                   </div>
                   <div className="mt-2 text-xl font-semibold">Cover + quick trust</div>
-                  <p className="mt-2 text-sm leading-relaxed text-white/70">
-                    Add your ebook cover to <span className="text-white/90">/public/ycst-cover.jpg</span>.
-                    Optional: add a mockup to <span className="text-white/90">/public/ycst-mockup.png</span>.
-                  </p>
                 </div>
                 <div className="grid h-11 w-11 place-items-center rounded-2xl bg-white text-black">
                   <Lock className="h-5 w-5" />
