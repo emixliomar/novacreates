@@ -6,8 +6,12 @@ export function TopBar({ productName, trustLine, hotmartUrl, ctaPrimary }) {
     <div className="relative z-20 border-b border-white/10 bg-black/30 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <div className="flex items-center gap-3">
-          <div className="grid h-10 w-10 place-items-center rounded-2xl bg-white text-black font-black">
-            YC
+          <div className="grid h-10 w-10 place-items-center rounded-2xl bg-white/5 border border-white/40 overflow-hidden">
+            <img
+                src="/ycst.png"
+                alt="Your Change Start Today"
+                className="h-full w-full object-contain"
+            />
           </div>
           <div className="leading-tight">
             <div className="text-sm font-semibold">{productName}</div>
